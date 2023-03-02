@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #0b0e12;
+  margin-top: 95px;
+}
+.backgroundIMG {
+  background-image: url("images/63764fc787b1a4262caaab5b_Triangles\ Patterns.svg");
+  filter: blur(10px);
+  -webkit-filter: blur(5px);
+  background-size: cover;
+  height: 50rem;
+}
+.imgblr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #eff3f6;
+}
+p {
+  font-family: "Rampart One", cursive;
+  color: #eff3f6;
+  animation: text 3s 1;
+}
+@keyframes text {
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
+
+  30% {
+    margin-bottom: -40px;
+  }
+
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+h1 {
+  font-family: "Carter One", cursive;
+  color: #eff3f6;
+}
+.containerPage {
+  min-height: 80vh;
+}
+.hello {
+  height: 1rem;
+}
