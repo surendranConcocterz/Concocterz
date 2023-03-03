@@ -8,8 +8,8 @@ body {
 }
 .backgroundIMG {
   background-image: url("images/63764fc787b1a4262caaab5b_Triangles\ Patterns.svg");
-  filter: blur(10px);
-  -webkit-filter: blur(5px);
+  /* filter: blur(10px);
+  -webkit-filter: blur(5px); */
   background-size: cover;
   height: 50rem;
 }
