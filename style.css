@@ -25,26 +25,42 @@ body {
 p {
   font-family: "Rampart One", cursive;
   color: #eff3f6;
-  animation: text 3s 1;
+  animation: text 1.2s 1;
 }
 @keyframes text {
   0% {
     color: black;
-    margin-bottom: -40px;
+    opacity: 0;
   }
-
-  30% {
-    margin-bottom: -40px;
+  50% {
+    color: black;
+    opacity: 0;
   }
-
   85% {
     letter-spacing: 8px;
     margin-bottom: -40px;
+    color: black;
   }
 }
 h1 {
   font-family: "Carter One", cursive;
   color: #eff3f6;
+  animation: text1 1s 1;
+}
+@keyframes text1 {
+  0% {
+    opacity: 0;
+    letter-spacing: 4px;
+    margin-bottom: -200px;
+  }
+  40% {
+    opacity: 0;
+    letter-spacing: 4px;
+  }
+
+  85% {
+    opacity: 0.8;
+  }
 }
 .containerPage {
   min-height: 80vh;
