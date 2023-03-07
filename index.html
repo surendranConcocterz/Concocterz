@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Carter+One&family=Rampart+One&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Concocterz</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -86,7 +86,7 @@
         <div class="backgroundIMG"></div>
         <div class="container containerPage imgblr text-center">
           <h1 class="display-1 pt-5">We Can Help Take</h1>
-          <p class="display-1 p-5">Your Idea Global Effortlessly.</p>
+          <p class="display-1 p-5 font1">Your Idea Global Effortlessly.</p>
           <button type="button" class="btn btn-secondary m-5">
             GET A PROPOSAL
           </button>
@@ -95,27 +95,41 @@
       <!-- section2 -->
 
       <section id="scrollspyHeading2">
-        <div class="container containerPage hello text-center">
-          <iframe
-            width="80%"
-            height="60%"
-            src="https://www.youtube.com/embed/pWOv9xcoMeY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+        <div class="container containerPage text-center">
+          <div data-aos="fade-up-left" class="hello">
+            <iframe
+              width="80%"
+              height="60%"
+              src="https://www.youtube.com/embed/pWOv9xcoMeY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
       <!-- section3 -->
 
       <section id="scrollspyHeading3">
-        <div class="container text-center">
-          <h1>Match The Industry Standard</h1>
-          <h1>With Right Technology Partner</h1>
-          <h1>Using Latest Technologies</h1>
-          <h1>Your Dream Made A Reality,</h1>
-          <h1>On Any Platform</h1>
+        <div data-aos="flip-left" class="container text-center">
+          <h1>Get <span class="glow">Industry-Demanded</span></h1>
+          <h1>App With Our Exceptional Support.</h1>
+          <p class="font2">
+            Partner With The Right Technology Team To Build A Market-Fit App
+          </p>
+          <p class="font2">
+            That's 100x Better Than Your Current One. Let's Take Your App To The
+            Next Level.
+          </p>
+        </div>
+        <div data-aos="flip-up" class="container text-center mb-2">
+          <img
+            src="images/Untitled1.png"
+            style="height: 35rem; width: 55rem"
+            alt="coverimage2"
+            class="img-fluid"
+          />
         </div>
       </section>
       <!-- section4 -->
@@ -135,5 +149,9 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

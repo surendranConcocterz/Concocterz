@@ -22,10 +22,14 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: #eff3f6;
 }
-p {
+.font1 {
   font-family: "Rampart One", cursive;
   color: #eff3f6;
   animation: text 1.2s 1;
+}
+.font2 {
+  color: #eff3f6;
+  font-family: "Golos Text", sans-serif;
 }
 @keyframes text {
   0% {
@@ -66,11 +70,33 @@ h1 {
   min-height: 80vh;
 }
 .hello {
-  height: 1rem;
+  height: 45rem;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280199, 199, 206, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-toggler {
   border: 3px solid rgb(199, 199, 206);
+}
+
+.glow {
+  /* font-size: 25px; */
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #00e6e6, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.align {
+  align-items: center;
 }
